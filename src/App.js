@@ -41,7 +41,7 @@ function App() {
         <h1>
           POKE <span>STATS</span>
         </h1>
-        <form action>
+        
           <input
             placeholder="Enter the POKEMON"
             value={name}
@@ -54,7 +54,7 @@ function App() {
             type="text"
           />
           <button onClick={searchPokemon}>Search Pokemon</button>
-        </form>
+        
       </div>
       <div className="display">
         {choose === false ? (
